@@ -13,7 +13,6 @@
 		A13173BE22465510002F713F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13173BC22465510002F713F /* Main.storyboard */; };
 		A13173C022465512002F713F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13173BF22465512002F713F /* Assets.xcassets */; };
 		A13173C322465512002F713F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13173C122465512002F713F /* LaunchScreen.storyboard */; };
-		AC3797282246616100BEB441 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC3797272246616100BEB441 /* GoogleService-Info.plist */; };
 		AC37972A224681AE00BEB441 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC379729224681AE00BEB441 /* ShoppingTableViewController.swift */; };
 		AC37972C2246865E00BEB441 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37972B2246865E00BEB441 /* ShoppingItem.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +27,6 @@
 		A13173BF22465512002F713F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13173C222465512002F713F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A13173C422465512002F713F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC3797272246616100BEB441 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC379729224681AE00BEB441 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 		AC37972B2246865E00BEB441 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 		BB56875C984E76E82C7BDABE /* Pods-ShoppingList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingList.release.xcconfig"; path = "Target Support Files/Pods-ShoppingList/Pods-ShoppingList.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 		A13173B722465510002F713F /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
-				AC3797272246616100BEB441 /* GoogleService-Info.plist */,
 				A13173B822465510002F713F /* AppDelegate.swift */,
 				A13173BA22465510002F713F /* ViewController.swift */,
 				AC37972B2246865E00BEB441 /* ShoppingItem.swift */,
@@ -158,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A13173C322465512002F713F /* LaunchScreen.storyboard in Resources */,
-				AC3797282246616100BEB441 /* GoogleService-Info.plist in Resources */,
 				A13173C022465512002F713F /* Assets.xcassets in Resources */,
 				A13173BE22465510002F713F /* Main.storyboard in Resources */,
 			);
